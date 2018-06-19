@@ -3,13 +3,20 @@
 
 function forLoop(anArray){
   for(var i=0; i=>25; i++){
+<<<<<<< HEAD
     if (i == 0){
+=======
+    if (i = 0){
+>>>>>>> 7f2b41c0fa5cdef7c3d8571e8b8d1665e78f5f36
       anArray.push("I am 1 strange loop.");
     } else {
       anArray.push(`I am ${anArray[i]} strange loop.`);
     }
   }
+<<<<<<< HEAD
   return;
+=======
+>>>>>>> 7f2b41c0fa5cdef7c3d8571e8b8d1665e78f5f36
 }
 
 function whileLoop (n){
@@ -39,7 +46,11 @@ function maybeTrue() {
 
 
 
+<<<<<<< HEAD
 //forloop([]);
+=======
+forloop([]);
+>>>>>>> 7f2b41c0fa5cdef7c3d8571e8b8d1665e78f5f36
 whileLoop(6);
 
 var numberArray = [];
